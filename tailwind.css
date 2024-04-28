@@ -6,7 +6,7 @@
 
 @layer base{
 
-.icons{
+.icon-section{
     @apply w-8 h-8 text-white ml-3
 }
 .option{
