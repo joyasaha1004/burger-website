@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Lato&family=Oswald:wght@200..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+
+.icons{
+    @apply w-8 h-8 text-white ml-3
+}
+.option{
+    @apply w-32 h-32 
+}
+.food-text{
+    @apply inline text-white mt-5
+}
+.burger{
+    @apply bg-yellow-500 mb-10 ml-[20vw] sm:flex}
+
+}
