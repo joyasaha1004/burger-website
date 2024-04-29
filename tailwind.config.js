@@ -2,13 +2,11 @@
 module.exports = {
   content: ["*"],
   theme: {
-   
-    
-    
-    extend: {
-      fontFamily: {
+    fontFamily: {
         oswald: ['oswald', 'sans-serif']
       },
+    extend: {
+     
       keyframes:{
       move: {
         "50%":{transform: 'translateY(-1rem)'}
